@@ -11,7 +11,7 @@ Can a resource be deployed that will process earthquake data and allow an indivi
 This project will aim to give a user of this resource the ability to compare time periods, number of earthquakes, magnitude, and severity trends. 
 
 # Data Description:
-I will use historical and real-time data from [USGS](https://www.usgs.gov/programs/earthquake-hazards/earthquakes)regarding earthquake date, location, depth, magnitude, and several other features. I plan to use at least 10 years of historical data, starting with earthquakes in the US, however, I may expand the scope of the project to include earthquakes in other locations or perhaps globally. This model will be automated to pull real-time data on a daily basis. 
+I will use historical and real-time data from [USGS](https://www.usgs.gov/programs/earthquake-hazards/earthquakes) regarding earthquake date, location, depth, magnitude, and several other features. I plan to use at least 10 years of historical data, starting with earthquakes in the US, however, I may expand the scope of the project to include earthquakes in other locations or perhaps globally. This model will be automated to pull real-time data on a daily basis. 
 
 # Tools: 
 MongoDB will be used to store the data. I plan to use Flask or Streamlit to deploy an application that can be used to easily select two different dates or time periods and compare several figures regarding earthquakes between those two dates. I also intend to use Spark to handle the data. Python may be used for exploratory analysis. 
