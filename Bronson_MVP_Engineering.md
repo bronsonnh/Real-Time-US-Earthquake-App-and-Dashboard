@@ -14,3 +14,5 @@ One of the features will be the ability to compare the number of earthquakes rec
 
 
 ![Img_B](https://github.com/bronsonnh/Data_Engineering/blob/main/Image_EQ_5Plus.png)
+
+The final product will include different features including a visual in which areas in which earthquakes occured can be visualized on a map and location can be adjusted. Additionally, a feature in which users can view recent data around earthquakes to historical data will be present. 
