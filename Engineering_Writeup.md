@@ -4,7 +4,7 @@ By Nicholas Bronson
 
 ## Abstract:
 
-This project seeks to create a partially automated data pipeline to examine data on earthquakes. The final product pulls data from the [USGS’s earthquake database](https://earthquake.usgs.gov/) in real time and easily stores and sends this data to a Streamlit dashboard in which a user can examine qualities and trends in earthquakes across the US over time. Recent newsflow suggests that there may have been an increase in earthquakes in Oregon in 2021. This project attempts to answer the question: has there in fact been an uptick in the number of earthquakes occurring in the Oregon region recently? 
+This project seeks to create a partially automated data pipeline to examine data on earthquakes. The final product pulls data from the [USGS’s earthquake database](https://earthquake.usgs.gov/) in real time and easily stores and sends this data to a [Streamlit dashboard](https://share.streamlit.io/bronsonnh/streamlit_repo/main/nick-app.py) in which a user can examine qualities and trends in earthquakes across the US over time. Recent newsflow suggests that there may have been an increase in earthquakes in Oregon in 2021. This project attempts to answer the question: has there in fact been an uptick in the number of earthquakes occurring in the Oregon region recently? 
 
 ## Data:
 
@@ -22,10 +22,9 @@ Tools used for this project include SQLite for storing data, PySpark for manipul
 
 ## Communications:
 
-The primary forms of communication for this project are a PowerPoint presentation and a Streamlit web app. The Streamlit web app is freely available at this link and can be used to examine information regarding the number of earthquakes and magnitude of earthquakes occurring since 2010 in the United States. 
+The primary forms of communication for this project are a PowerPoint presentation and a Streamlit web app. The Streamlit web app is freely available at [this link](https://share.streamlit.io/bronsonnh/streamlit_repo/main/nick-app.py) and can be used to examine information regarding the number of earthquakes and magnitude of earthquakes occurring since 2010 in the United States. 
 
 
-https://share.streamlit.io/bronsonnh/streamlit_repo/main/nick-app.py
 
 
 
