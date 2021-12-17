@@ -21,7 +21,7 @@ United States Geological Survey's earthquake database linked [here](https://www.
 This dashboard provides insight on frequency, location, and magnitude of earthquakes
 in the conterminous United States.
 \n
-The genesis of my idea to create this dashboard came from [this NPR article.](npr.org/2021/12/08/1062365995/50-earthquakes-hit-off-the-oregon-coast-but-scientists-say-theyre-no-great-shake)
+The genesis of my idea to create this dashboard came from [this CNN article.](https://www.google.com/search?q=cnn+earthquakes+oregon&oq=cnn+earthquakes+oregon&aqs=chrome..69i57j69i60.2443j0j7&sourceid=chrome&ie=UTF-8)
 This dashboard will allow users to look into the earthquake data, and filter it in several different manners.
 Perhaps you can answer the question: Have earthquakes been increasing in number or severity in the US, particularly on the West Coast.
 """
