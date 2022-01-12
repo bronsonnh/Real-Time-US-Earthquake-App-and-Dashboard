@@ -4,7 +4,7 @@ By Nicholas Bronson
 
 ## Abstract:
 
-This project seeks to create a partially automated data pipeline to examine data on earthquakes. The final product pulls data from the [USGS’s earthquake database](https://earthquake.usgs.gov/) in real time and easily stores and sends this data to a [Streamlit dashboard](https://share.streamlit.io/bronsonnh/streamlit_repo/main/nick-app.py) in which a user can examine qualities and trends in earthquakes across the US over time. Recent newsflow suggests that there may have been an increase in earthquakes in Oregon and off its coast in 2021. This project attempts to answer the question: has there in fact been an uptick in the number of earthquakes occurring in the Oregon region recently? 
+This project seeks to create a partially automated data pipeline to examine data on earthquakes. The final product pulls data from the [USGS’s earthquake database](https://earthquake.usgs.gov/) in real time and easily stores and sends this data to a [Streamlit dashboard](https://share.streamlit.io/bronsonnh/streamlit_repo/main/nick-app.py) in which a user can examine qualities and trends in earthquakes across the US over time. Recent newsflow suggests that there may have been an increase in earthquakes in Oregon and off its coast in 2021. This project attempts to answer the question: has there in fact been an uptick in the number of significant earthquakes occurring in the Oregon region recently? 
 
 ## Design:
 
