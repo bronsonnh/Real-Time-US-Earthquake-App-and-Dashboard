@@ -12,13 +12,13 @@ This project's focus is on using a sizable amount of USGS's data to create an in
 
 ## Data:
 
-The originally pulled data consists of 869141 rows of data and 22 features including time of earthquake, id, longitude and latitude, depth, magnitude, and among others. The data is collected and updated in real-time, with a brief process with a minimal number of manual steps. There is an increasing amount of data which is housed in a local SQL database, and routinely uploaded to GitHub and Streamlit thereafter. 
+The originally pulled data consists of 869141 rows of data and 22 features including time of earthquake, ID, longitude and latitude, depth, magnitude, and among others. The data is collected and updated in real-time, with a brief process with a minimal number of manual steps. There is an increasing amount of data which is housed in a local SQL database, and routinely uploaded to GitHub and Streamlit thereafter. 
 
 ## Algorithms:
 
 To begin the process of creating a data pipeline that was deployed into the dashboard, a CSV containing historical data from the USGS earthquake API was pulled. The acquired data was information on all earthquakes from 2010 to the present date that were recorded within the US. This data was uploaded into a SQLite database, and pulled into a Jupyter notebook using pySpark. PySpark was also used to clean the data prior to converting the pySpark dataframe to Pandas dataframe in which further cleaning and manipulation was carried out. A process that allows all new US earthquake data to be pulled from USGS’s database was created, and this can be executed by selecting a new file name and a single click. A preprocessing framework was developed that allows new data to be cleaned and reformatted to a more easily usable format by means of running a single cell in a Jupyter notebook. 
 
-Data was uploaded to GitHub and deployed to a live Streamlit app. This Streamlit app contains general information regarding earthquakes to provide basic information to a user of this app who may not have knowledge of earthquakes. Additionally, this app contains interactive maps that allow a user to see where earthquakes occurred during each month between 2010 and the present date. This data can also be filtered by magnitude. The project concludes that while more research may need to be done, the uptick in earthquakes in Oregon appears to be massive, although, newsflow suggests this hasn't caused damage or loss of life. 
+Data was uploaded to GitHub and deployed to a live Streamlit app. This Streamlit app contains general information regarding earthquakes to provide basic information to a user of this app who may not have knowledge of earthquakes. Additionally, this app contains interactive maps that allow a user to see where earthquakes occurred during each month between 2010 and the present date. This data can also be filtered by magnitude. The project concludes that while more research may need to be done, the uptick in earthquakes in Oregon appears to be large, although, newsflow suggests this hasn't caused damage or loss of life. 
 
 ## Tools:
 
