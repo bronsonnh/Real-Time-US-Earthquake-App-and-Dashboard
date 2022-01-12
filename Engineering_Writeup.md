@@ -6,6 +6,10 @@ By Nicholas Bronson
 
 This project seeks to create a partially automated data pipeline to examine data on earthquakes. The final product pulls data from the [USGS’s earthquake database](https://earthquake.usgs.gov/) in real time and easily stores and sends this data to a [Streamlit dashboard](https://share.streamlit.io/bronsonnh/streamlit_repo/main/nick-app.py) in which a user can examine qualities and trends in earthquakes across the US over time. Recent newsflow suggests that there may have been an increase in earthquakes in Oregon and off its coast in 2021. This project attempts to answer the question: has there in fact been an uptick in the number of earthquakes occurring in the Oregon region recently? 
 
+## Design:
+
+This project's focus is on using a sizable amount of USGS's data to create an interactive tool to examine earthquakes in Oregon specifically, while also empowering and encouraching users to explore other earthquakes. In achieving this goal, data must be pulled, processed, stored, and finally connected to the Streamlit app. The goall is to do this in a manner in which manual processes are reduced to a minimum, and process are as logical, maintainable, and efficent as possible. Please see the Algorithms section below for additional details.  
+
 ## Data:
 
 The originally pulled data consists of 869141 rows of data and 22 features including time of earthquake, id, longitude and latitude, depth, magnitude, and among others. The data is collected and updated in real-time, with a brief process with a minimal number of manual steps. There is an increasing amount of data which is housed in a local SQL database, and routinely uploaded to GitHub and Streamlit thereafter. 
