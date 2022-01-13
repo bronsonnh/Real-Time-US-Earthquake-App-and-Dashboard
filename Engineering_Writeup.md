@@ -12,7 +12,7 @@ This project's focus is on using a sizable amount of USGS's data to create an in
 
 ## Data:
 
-The originally pulled data consists of 869141 rows of data and 22 features including time of earthquake, ID, longitude and latitude, depth, magnitude, and among others. The data is collected and updated in real-time, with a brief process with a minimal number of manual steps. There is an increasing amount of data which is housed in a local SQL database, and routinely uploaded to GitHub and Streamlit thereafter. 
+The originally pulled data consists of 870,943 rows of data and 22 features including time of earthquake, ID, longitude and latitude, depth, magnitude, and among others. The data is collected and updated in real-time, with a brief process with a minimal number of manual steps. There is an increasing amount of data which is housed in a local SQL database, and routinely uploaded to GitHub and Streamlit thereafter. 
 
 ## Algorithms:
 
