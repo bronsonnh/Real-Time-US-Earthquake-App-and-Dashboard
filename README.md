@@ -7,5 +7,5 @@ The aim of this project is to provide a dashboard that can be used to learn abou
 This repo contains the following:
 * A [slide deck](https://github.com/bronsonnh/Real-Time-US-Earthquake-App-and-Dashboard/blob/main/Data%20Engineering%20Powerpoint%20(1).pdf) explaining the purpose of this project and my process in putting it together
 * The [jupyter notebook](https://github.com/bronsonnh/Real-Time-US-Earthquake-App-and-Dashboard/blob/main/Engineering%20Project%20Notebook.ipynb) where I processed and explored the data that I aquired from the USGS 
-* A [writeup](https://github.com/bronsonnh/Real-Time-US-Earthquake-App-and-Dashboard/blob/main/Engineering_Writeup.md) that describes the design, data, algorithms, tools, and communications for this project. 
+* A [report](https://github.com/bronsonnh/Real-Time-US-Earthquake-App-and-Dashboard/blob/main/Engineering_Writeup.md) that describes the design, data, algorithms, tools, and communications for this project. 
 
